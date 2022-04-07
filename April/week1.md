@@ -22,7 +22,7 @@
 
 ## _(Wednesday) April 06_ 📢
 
->### Your date of birth in the matrix? 💊
+>### Your date of birth in the matrix 💊
 `My year of birth:` 1993   
 
 **Converted to binary**
