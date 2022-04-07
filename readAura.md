@@ -1,5 +1,6 @@
-# DataBase Core-Code 🚀
-## Week Challenge 📅
+# 🎯 Challenges DataBase Core-Code 🚀
+## April 📅
+## 1️⃣ Week Challenge 
 ## _(Tuesday) April 05_ 📢
 
 ### Interpreted And Compiled Programming Languages
@@ -13,12 +14,14 @@
 - Java is considered an hybrid language, that means both compiled and interpreted.
 
 ### Pseudocode currency converter exercise
+```
 1. START
 2. USD <-- GET 
 3. BitValue <-- GET
 4. BTC <-- USD * BitValue
 5. PRINT BTC
 6. END
+```
 
 ## _(Wednesday) April 06_ 📢
 
