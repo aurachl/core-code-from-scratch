@@ -85,3 +85,52 @@ _2. Create a program that display your name_
               la $a0, greeting
               syscall 
 ```
+## _(Thursday) April 07_ 📢
+
+>### Print special numbers 🔍 
+`Iterative flow control using for`
+```javascript
+var num ='';
+
+for (var num = 0; num <= 100; num++) {
+    if (num % 2 ==0)
+    console.log(num);
+}
+```
+>### Bad Code 💀
+`Bad‼️`
+```javascript
+var cond = false;
+//❌ It's not the right comparison for the condition
+if ((cond = true)) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
+`Good✅`
+```javascript
+var cond = false;
+//👍 It's the rigth abstract equality comparison for the condition
+if (cond == true) {
+    console.log('The cond variable is true');
+} else {
+    console.log('The cond variable is false');
+}
+```
+>### Bad Code 2 🚫
+```javascript
+var n = 100;
+
+if (n == 100) {
+    console.log('This is a special number!');
+}
+else if (n < 1000 && n % 10 == 0 && n != 100) {
+    console.log('This number is almost special');
+} 
+else if (n != 100 || n % 10 !==0) {
+    console.log('Just a regular number');
+}
+```
+
+
