@@ -6,13 +6,13 @@
 ## April 📅
 ## Weeks
 
->[1️⃣st. week challenges !](/April/week1.md)
+>[🅰️pril 1️⃣st. week challenges !](/April/week1.md)
 
 `     ⛺     ⛵     🌴     🌊     Holy Interval     🌊     🌴     ⛵     ⛺`
 
->[3️⃣rd. week challenges !](/April/week3.md)
+>[🅰️pril 3️⃣rd. week challenges !](/April/week3.md)
 
->[4️⃣th. week challenges !](/April/week4.md)
+>[🅰️pril 4️⃣th. week challenges !](/April/week4.md)
 
 
 ## Month 📅
