@@ -1,3 +1,5 @@
+<h1 align="center">🅰️ April 🅰️</h1>
+
 ## _(Tuesday) April 05_ 📢
 
 >### Interpreted And Compiled Programming Languages
@@ -133,4 +135,4 @@ else if (n != 100 || n % 10 !==0) {
 }
 ```
 
-
+## [📎 Back to main page !📎](https://github.com/aurachl/core-code-from-scratch/blob/e677ad52bedf877fc64ea62753f6b95c15360173/readAura.md)
