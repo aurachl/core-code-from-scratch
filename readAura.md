@@ -5,5 +5,22 @@
 # 🎯 Week Challenges Core-Code DataBase 🚀
 ## April 📅
 ## Weeks
->[1️⃣ Week challenges !](April/week1.md)
+>[1️⃣st. week challenges !](April/week1.md)
+
+`     ⛺     ⛵     🌴     🌊     Holy Interval     🌊     🌴     ⛵     ⛺`
+
+>[3️⃣rd. week challenges !](April/week3.md)
+
+>[4️⃣th. week challenges !](April/week4.md)
+
+
+## Month 📅
+## Weeks
+>[1️⃣st. week challenges !](___/week1.md)
+
+>[2️⃣nd. week challenges !](___/week2.md)
+
+>[3️⃣rd. week challenges !](____/week3.md)
+
+>[4️⃣th. week challenges !](____/week4.md)
 
