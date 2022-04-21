@@ -50,8 +50,55 @@ function finalGrade (exam, projects) {
 
 ## _(Wednesday) April 20_ 📢
 
->### Title
-`Highlight` 
+>###Holiday VIII - Duty Free `Exercise` 🍹
+```javascript
+function dutyFree(normPrice, discount, hol) 
+    let dutyFree= (hol/(normPrice*(discount/100)));
+    return Math.trunc(dutyFree);
+    }
+```
+
+>###Twice As Old `Exercise` 👨👦👴
+```javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    return Math.abs(dadYearsOld-(sonYearsOld*2));
+  }
+```
+
+>###Valid Spacing `Exercise` 🔍
+```javascript
+function validSpacing(s) {
+  const spaceRegex = /\s/gi;
+  const wordRegex = /[a-z]+/gi;
+    if (s.match(spaceRegex) == null || s.length == 0) {
+      return true; } 
+        else if (s.match(wordRegex) == null) {
+          return false; } 
+        else if (s.match(spaceRegex).length == s.match(wordRegex).length - 1) {
+          return true; }
+    return false;
+}
+```
+`A cooler one that I find with ternary operator` 🔎
+```javascript
+function validSpacing(s) {
+  return s=='' ? true : s.split(' ').find(el=> el=='') >= 0 ? false : true
+}
+```
+
+>###Fake Binary `Exercise` 👻1️0️⃣👻0️⃣1️⃣👻
+```javascript
+function fakeBin(x) {
+  let result = '';
+    for (let i = 0; i < x.length; i++) {
+      if (parseInt(x[i]) < 5) {
+        result += '0'; }
+      else {
+        result += '1'; }
+    }
+  return result;
+}
+```
 
 ## _(Thursday) April 21_ 📢
 
