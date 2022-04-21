@@ -68,8 +68,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 >### Valid Spacing `Exercise` 🔍
 ```javascript
 function validSpacing(s) {
-  const spaceRegex = /\s/gi;
-  const wordRegex = /[a-z]+/gi;
+  let spaceRegex = /\s/gi;
+  let wordRegex = /[a-z]+/gi;
     if (s.match(spaceRegex) == null || s.length == 0) {
       return true; } 
         else if (s.match(wordRegex) == null) {
