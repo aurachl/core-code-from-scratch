@@ -50,7 +50,7 @@ function finalGrade (exam, projects) {
 
 ## _(Wednesday) April 20_ 📢
 
->###Holiday VIII - Duty Free `Exercise` 🍹
+>### Holiday VIII - Duty Free `Exercise` 🍹
 ```javascript
 function dutyFree(normPrice, discount, hol) 
     let dutyFree= (hol/(normPrice*(discount/100)));
@@ -58,14 +58,14 @@ function dutyFree(normPrice, discount, hol)
     }
 ```
 
->###Twice As Old `Exercise` 👨👦👴
+>### Twice As Old `Exercise` 👨👦👴
 ```javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
     return Math.abs(dadYearsOld-(sonYearsOld*2));
   }
 ```
 
->###Valid Spacing `Exercise` 🔍
+>### Valid Spacing `Exercise` 🔍
 ```javascript
 function validSpacing(s) {
   const spaceRegex = /\s/gi;
@@ -79,14 +79,14 @@ function validSpacing(s) {
     return false;
 }
 ```
-`A cooler one that I find with ternary operator` 🔎
+>#### `A cooler one that I find using ternary operator` 🔎
 ```javascript
 function validSpacing(s) {
   return s=='' ? true : s.split(' ').find(el=> el=='') >= 0 ? false : true
 }
 ```
 
->###Fake Binary `Exercise` 👻1️0️⃣👻0️⃣1️⃣👻
+>### Fake Binary `Exercise` 👻1️0️⃣👻0️⃣1️⃣👻
 ```javascript
 function fakeBin(x) {
   let result = '';
