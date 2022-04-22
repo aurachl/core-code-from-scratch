@@ -102,6 +102,51 @@ function fakeBin(x) {
 
 ## _(Thursday) April 21_ 📢
 
->### Title
+>### Remove All Exclamation Marks From The End Of Sentence `Exercise` 
+```javascript
+function remove (string) {  
+  return string.replace(/!+$/,"");
+    }
+```
+
+>### Vowel Remover `Exercise` 
+```javascript
+function shortcut (string) {
+  let newstring = string.replace(/[aeiou]/gi,'');
+  return newstring;
+}
+```
+
+>### Rock Paper Scissors! `Exercise` 
+```javascript
+const rps = (p1, p2) => {
+  
+    if (p1 === p2) 
+      return 'Draw!';
+    if (p1 === 'rock' && p2 === 'scissors') 
+      return 'Player 1 won!';
+    if (p1 === 'scissors' && p2 === 'paper') 
+      return 'Player 1 won!';
+    if (p1 === 'paper' && p2 === 'rock') 
+      return 'Player 1 won!';
+  
+    return 'Player 2 won!';
+  }
+```
+
+>### Persistent Bugger `Exercise` 
+```javascript
+function persistence(num) {
+  let digits = num.toString();
+  let result = 0;
+  
+  while (digits.length > 1) {
+   digits = digits.split('').map(Number).reduce((a, b) => a * b).toString();
+   result++;
+  }
+  
+  return result;
+}
+```
 
 ## [📎 Back to main page !📎](/home/readAura.md)
