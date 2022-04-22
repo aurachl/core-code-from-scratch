@@ -102,14 +102,14 @@ function fakeBin(x) {
 
 ## _(Thursday) April 21_ 📢
 
->### Remove All Exclamation Marks From The End Of Sentence `Exercise` 
+>### Remove All Exclamation Marks From The End Of Sentence `Exercise` ‼️‼️
 ```javascript
 function remove (string) {  
   return string.replace(/!+$/,"");
     }
 ```
 
->### Vowel Remover `Exercise` 
+>### Vowel Remover `Exercise` 🔠
 ```javascript
 function shortcut (string) {
   let newstring = string.replace(/[aeiou]/gi,'');
@@ -117,7 +117,7 @@ function shortcut (string) {
 }
 ```
 
->### Rock Paper Scissors! `Exercise` 
+>### Rock Paper Scissors! `Exercise` 🗿📄✂️
 ```javascript
 const rps = (p1, p2) => {
   
@@ -134,7 +134,7 @@ const rps = (p1, p2) => {
   }
 ```
 
->### Persistent Bugger `Exercise` 
+>### Persistent Bugger `Exercise` 🍔
 ```javascript
 function persistence(num) {
   let digits = num.toString();
