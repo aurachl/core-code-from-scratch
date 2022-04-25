@@ -10,9 +10,9 @@
 
 `     ⛺     ⛵     🌴     🌊     Holy Interval     🌊     🌴     ⛵     ⛺`
 
->[🅰️pril 3️⃣rd. week challenges !](/April/week3.md)
+>[🅰️pril 2️⃣nd. week challenges !](/April/week2.md)
 
->[🅰️pril 4️⃣th. week challenges !](/April/week4.md)
+>[🅰️pril 3️⃣rd. week challenges !](/April/week3.md)
 
 
 ## Month 📅
