@@ -39,7 +39,42 @@ function order(words){
 
 ## _(Tuesday) April 26_ 📢
 
->### Title
+>### Simple Pig Latin `Exercise` 🌀
+```javascript 
+function pigIt(str){
+  const arr = str.split(' ')
+  return arr
+    .map((word) => {
+    return word.match(/[A-z]/i)
+    ? `${word.substr(1)}${word.substr(0, 1)}ay`
+    : word
+    })
+  .join(' ')
+}
+```
+
+>### Counting Duplicates `Exercise` 👀
+```javascript 
+function duplicateCount(text){
+  const characters = new Set(); 
+  const repeated = new Set();
+  for (const char of text.toLowerCase()) {
+    if (characters.has(char)) { repeated.add(char);} 
+    else { characters.add(char); }
+  }
+  return repeated.size;
+}
+```
+
+>### Decode The Morse Code `Exercise` 🚢
+```javascript 
+decodeMorse = function(morseCode) {
+  function decodeMorseLetter(letter) { return MORSE_CODE[letter]; }
+  function decodeMorseWord(word) { return word.split(' ').map(decodeMorseLetter).join(''); }
+  return morseCode.trim().split('   ').map(decodeMorseWord).join(' ');
+    }
+```
+
 ## _(Wednesday) April 27_ 📢
 
 >### Title
