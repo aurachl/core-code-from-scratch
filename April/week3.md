@@ -77,9 +77,79 @@ decodeMorse = function(morseCode) {
 
 ## _(Wednesday) April 27_ 📢
 
->### Title
-`Highlight` 
+>### Valid Parentheses `Exercise` ➡️⬅️
+```javascript 
+function validParentheses(parens) {
+  let pair = 0;
+    for (let i =0; i < parens.length; i++) {
+    let char = parens[i];
+        if (char === "(") pair++;
+        if (char === ")") pair--;
+    if (pair < 0) return false; }
+  return pair == 0;
+}
+```
+
+>### Convert String To Camel Case `Exercise` 🔗
+```javascript 
+function toCamelCase(str){
+  let convert = "";
+  if(str){
+  let wordArr = str.split(/[-_]/g);
+    for (let i in wordArr){
+      if(i > 0){
+      convert += wordArr[i].charAt(0).toUpperCase() + wordArr[i].slice(1);
+      } else {
+      convert += wordArr[i] }
+    } }
+      else{ return convert }
+  return convert;
+}
+```
+
+>### Unique In Order `Exercise` 🚥
+```javascript 
+var uniqueInOrder=function(iterable){
+  var items = []
+    for(var i = 0; i < iterable.length; i++){
+    if(iterable[i] !== iterable[i + 1]) items.push(iterable[i]);
+    }
+  return items;
+}
+```
+
 ## _(Thursday) April 28_ 📢
 
->### Title
+>### Fold An Array `Exercise` ✉️ 
+```javascript 
+function foldArray(array, runs) {
+  let folded = [];
+  let newArray = array.slice();
+    while(newArray.length > 1){
+      folded.push(newArray[0] + newArray[newArray.length -1]);
+      newArray = newArray.slice(1, newArray.length-1);}
+    if(newArray.length > 0){
+      folded.push(newArray[0]);}
+    if(runs > 1){
+      return foldArray(folded, runs-1);}
+  return folded;
+}
+```
+
+>### Encrypt This!  `Exercise` 🔑
+```javascript 
+//EN proceso
+var encryptThis = function(text) {
+  let arr = text.split;
+  let encrypt = "";
+  for (let i=0; i < arr.length; i++){
+    //tomar la primera posicion de la palabra y volverla ascii code con charCodeAt
+    //darle vuelta a las demas letras str.split('').reverse().join('')
+    // return el encrypt con todo
+    function encrypt(word) { return encrypt.map(text)encrypt.join(''); }
+    push.newencrypt
+  }
+    
+```
+
 ## [📎 Back to main page !📎](/home/readAura.md)
