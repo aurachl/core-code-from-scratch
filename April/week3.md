@@ -138,18 +138,19 @@ function foldArray(array, runs) {
 
 >### Encrypt This!  `Exercise` 🔑
 ```javascript 
-//EN proceso
 var encryptThis = function(text) {
-  let arr = text.split;
-  let encrypt = "";
-  for (let i=0; i < arr.length; i++){
-    //tomar la primera posicion de la palabra y volverla ascii code con charCodeAt
-    //darle vuelta a las demas letras str.split('').reverse().join('')
-    // return el encrypt con todo
-    function encrypt(word) { return encrypt.map(text)encrypt.join(''); }
-    push.newencrypt
-  }
-    
+  let arr = text.split(' ');
+  let encrypt = arr.map((str) => {
+    if(str.length == 1) return `${str.charCodeAt()}`;
+    if(str.length == 2) return `${str[0].charCodeAt()}${str[1]}`;
+    let rest = str.slice(1);
+    let restFirst = rest[0];
+    let restLast = rest[rest.length-1];
+    let restRest = rest.slice(1,rest.length-1);
+    return `${str[0].charCodeAt()}${restLast}${restRest}${restFirst}`;
+  });
+  return encrypt.join(' ');
+ }
 ```
 
 ## [📎 Back to main page !📎](/home/readAura.md)
