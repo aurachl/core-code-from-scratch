@@ -21,9 +21,9 @@
 
 >[Ⓜ️ay 5️⃣th. week challenges !](/May/week5.md)
 
->[Ⓜ️ay 3️⃣th. week challenges !](/May/week6.md)
+>[Ⓜ️ay 6️⃣th. week challenges !](/May/week6.md)
 
->[Ⓜ️ay 4️⃣th. week challenges !](/May/week7.md)
+>[Ⓜ️ay 7️⃣th. week challenges !](/May/week7.md)
 
 ## Month 📅
 ## Weeks
