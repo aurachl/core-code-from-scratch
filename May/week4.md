@@ -54,7 +54,10 @@ function getNumberFromString(s) {
 
 >### Password Validation `Exercise` 🔐
 ```javascript 
-
+function validate(password) {
+  const rules = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9]{6,}$/;
+  return rules.test(password);
+}
 ```
 
 ## [📎 Back to main page !📎](/home/readAura.md)
