@@ -11,10 +11,10 @@
 ## _(Tuesday) May 03_ 📢
 
 `Learning about:` 💡
-* ** **
-* ** **
-* ** **
-* ** **
+* **Regular Expressions (RegEx) & MDN documentation**
+* **String Replace & MDN Documentation**
+* **Regexr Tool**
+* **More about RegEx**
 
 ## _(Wednesday) May 04_ 📢
 
