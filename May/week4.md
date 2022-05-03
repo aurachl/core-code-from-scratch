@@ -49,7 +49,9 @@ function getNumberFromString(s) {
 
 >### String Cleaning `Exercise` ♻️
 ```javascript 
-
+function stringClean(s){
+  return s.replace(/[0-9]/g,''); 
+}
 ```
 
 >### Password Validation `Exercise` 🔐
