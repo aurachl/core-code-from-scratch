@@ -27,7 +27,7 @@ function validateUsr(username) {
 ```
 
 >### Get Number From String `Exercise` 🔢
-**Using String Methods 🔗
+**Using String Methods** 🔗
 ```javascript 
 function getNumberFromString(s) {
   return Number(s
@@ -35,9 +35,8 @@ function getNumberFromString(s) {
   .join(''));
 } 
 ```
-**Using Array Methods 📅
-```
-//Other solution 
+**Using Array Methods** 📅
+```javascript 
 function getNumberFromString(s) {
   return Number(s
   .split('')
