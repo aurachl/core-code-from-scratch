@@ -5,9 +5,13 @@
 >### Find The Missing Letter `Exercise` 🔍
 ```javascript 
 function findMissingLetter(array) {
+//We move the array elements into a string to make the search easy
   let string = array.join("");
+  //Let's move between the letters on the string with the help of 'for'
     for (let i = 0; i < string.length; i++) {
+    //Now, using the Unicode values of the letters with 'charCodeAt' we check if the order don't match
       if (string.charCodeAt(i + 1) - string.charCodeAt(i) != 1) {
+      //In the case of finding that something is missing, we return that letter
       return String.fromCharCode(string.charCodeAt(i) + 1);}
     }
 }
