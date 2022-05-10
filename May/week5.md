@@ -41,7 +41,16 @@ function revrot(str, sz) {
 
 ## _(Tuesday) May 10_ 📢
 
->### Name `Exercise`↩️
+`Learning about:` 💡
+* **TypeScript Handbook**
+* **Type vs Interface in TypeScript**
+
+>### TypeScript Object Type `Exercise` 📚
+```javascript 
+
+```
+
+>### TypeScript Unions `Exercise` 🔀
 ```javascript 
 
 ```
