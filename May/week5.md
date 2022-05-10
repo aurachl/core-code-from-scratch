@@ -20,21 +20,31 @@ function findMissingLetter(array) {
 >### Reverse Or Rotate? `Exercise`↩️
 ```javascript 
 function revrot(str, sz) {
-  if (sz <= 0 || str == '' || sz > str.length) {
-    return ''; }
-    const arr = [];
-    const s = str.split('');
+  //Validates initial conditions
+  if (sz <= 0 || str == '' || sz > str.length) return '';
+  const arr = [];
+  //String to array
+  const s = str.split('');
+  //Defines the number of chunks according to 'sz' value
   while (s.length >= sz) {
-    arr.push(s.splice(0, sz));}
-    const res = arr.map((x) => {
+    arr.push(s.splice(0, sz));
+  }
+  //Apply 'map' instruction to the array
+  const res = arr.map((x) => {
+    //Calculate the sum of the cubes of the digits in the array
     const sum = x.reduce((a, c) => a + Math.pow(c, 3), 0);
-  if (sum % 2) {
-    x.push(x[0]);
-    x.shift();
-    return x.join('');
+    //Validate if the sum is divisible by 2
+    if (sum % 2) {
+      //Sent first digit to the back
+      x.push(x[0]);
+      x.shift();
+      return x.join('');
     } else {
-    return x.reverse().join(''); }
+      //Reverse chunk
+      return x.reverse().join(''); 
+    }
   });
+  //Show result
   return res.join('');
 }
 ```
