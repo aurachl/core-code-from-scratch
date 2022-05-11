@@ -55,27 +55,98 @@ function revrot(str, sz) {
 * **TypeScript Handbook**
 * **Type vs Interface in TypeScript**
 
->### TypeScript Object Type `Exercise` 📚
-```javascript 
+>### TypeScript Object Type `Exercise` 📑
+```typescript
+//We create the 'User' interface were we gonna define the types
+export interface User {
+  name: string;
+  age: number;
+  occupation: string;
+}
 
+//We use the interface
+export const users: User[] = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    }
+];
+
+//We validate that we're using the correct types
+export function logPerson(user: User) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+console.log('Users:');
+users.forEach(logPerson);
 ```
 
->### TypeScript Unions `Exercise` 🔀
-```javascript 
+>### TypeScript Unions `Exercise` 🇩🇪
+```typescript 
+interface User {
+    name: string;
+    age: number;
+    occupation: string;
+}
 
+interface Admin {
+    name: string;
+    age: number;
+    role: string;
+}
+
+//Using the 'Union' types we create the type 'Person' that have the values of User and Admin
+export type Person = User | Admin;
+
+//Now we use that new type/array
+export const persons: Person[] /* <- Person[] */ = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Jane Doe',
+        age: 32,
+        role: 'Administrator'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    },
+    {
+        name: 'Bruce Willis',
+        age: 64,
+        role: 'World saver'
+    }
+];
+
+//Validate
+export function logPerson(user: Person) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+persons.forEach(logPerson);
 ```
 
 ## _(Wednesday) May 11_ 📢
 
 >### Name `Exercise`
-```javascript 
+```typescript 
 
 ```
 
 ## _(Thursday) May 12_ 📢
 
 >### Name `Exercise` ♻
-```javascript 
+```typescript 
 
 ```
 
