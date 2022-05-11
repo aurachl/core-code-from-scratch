@@ -138,16 +138,23 @@ persons.forEach(logPerson);
 
 ## _(Wednesday) May 11_ 📢
 
->### Name `Exercise`
-```typescript 
-
-```
+`Learning about:` 💡
+* **FP vs OOP**
+* **OOP**
+* **Fundamental Concepts of Object Oriented Programming**
 
 ## _(Thursday) May 12_ 📢
 
->### Name `Exercise` ♻
-```typescript 
+>### What's Your Poison? `Exercise` 💀
+```javascript 
 
+```
+
+>### Array.diff `Exercise` 💨
+```javascript 
+function arrayDiff(a, b) {
+  return a.filter((diff) => !b.includes(diff));
+}
 ```
 
 ## [📎 Back to main page !📎](/home/readAura.md)
