@@ -147,7 +147,9 @@ persons.forEach(logPerson);
 
 >### What's Your Poison? `Exercise` 💀
 ```javascript 
-
+function find(rats) {
+  return rats.reduce((total, a) => total + Math.pow(2, a), 0);
+}
 ```
 
 >### Array.diff `Exercise` 💨
