@@ -25,13 +25,15 @@
 
 >[Ⓜ️ay 7️⃣th. week challenges !](/May/week7.md)
 
-## Month 📅
-## Weeks
+>[Ⓜ️ay 8️⃣th. week challenges !](/May/week8.md)
 
->[th. week challenges !](/___/week8.md)
+## June 📅 
+## Weeks  
 
->[th. week challenges !](/___/week9.md)
+>[🇯une 9️⃣th. week challenges !](/June/week9.md)
 
->[th. week challenges !](/____/week10.md)
+>[🇯une 🔟th. week challenges !](/June/week10.md)
 
->[th. week challenges !](/____/week11.md)
+>[🇯une 1️⃣1️⃣th. week challenges !](/June/week11.md)
+
+>[🇯une 1️⃣2️⃣th. week challenges !](/June/week12.md)
