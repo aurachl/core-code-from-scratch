@@ -21,13 +21,12 @@ export class G964 {
 
     public static nbYear = (p0, percent, aug, p) => {
       percent = percent / 100;
-        if(aug === null) aug = 0; 
+      if(aug === null) aug = 0; 
       let count = 0;
-      let YearPopulation = p0;
-        while (YearPopulation < p) {
-        YearPopulation = Math.floor(YearPopulation + YearPopulation * percent + aug);
+      while (p0 < p) {
+        p0 = Math.floor(p0 + p0 * percent + aug);
         count++;
-        }  
+      }  
       return count; 
     }
 }
