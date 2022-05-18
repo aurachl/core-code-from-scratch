@@ -3,9 +3,9 @@
 ## _(Monday) May 16_ 📢
 
 `Learning about:` 💡
-* **Everyday types in Typescript**
+* **Everyday types in TypeScript**
 
->### Square(n) Sum `Typescript Exercise` 🧮
+>### Square(n) Sum `TypeScript Exercise` 🧮
 ```typescript 
 export function squareSum(numbers: number[]): number {
   return numbers.reduce(
@@ -15,7 +15,7 @@ export function squareSum(numbers: number[]): number {
 }
 ```
 
->### Growth Of A Population `Typescript Exercise` 🧟
+>### Growth Of A Population `TypeScript Exercise` 🧟
 ```typescript 
 export class G964 {
 
@@ -32,7 +32,7 @@ export class G964 {
 }
 ```
 
->### Mumbling `Typescript Exercise` 🙊
+>### Mumbling `TypeScript Exercise` 🙊
 ```typescript 
 export function accum(s: string): string {
   return s
@@ -42,7 +42,7 @@ export function accum(s: string): string {
 }
 ```
 
->### A Wolf In Sheep's Clothing `Typescript Exercise` 🐺🐑
+>### A Wolf In Sheep's Clothing `TypeScript Exercise` 🐺🐑
 ```typescript 
 export function warnTheSheep(queue: string[]): string {
   const position = queue.reverse().indexOf('wolf');
@@ -50,11 +50,87 @@ export function warnTheSheep(queue: string[]): string {
   `Oi! Sheep number ${ position }! You are about to be eaten by a wolf!`;
 }
 ```
-
+    
 ## _(Tuesday) May 17_ 📢
->### Title `Exercise`
+>### A Rule Of Divisibility By 13  `TypeScript Exercise`
 ```typescript 
+export function thirt(n: number): number {
+  const arr: number[] = [1,10,9,12,3,4];
+  while (n >= 100){
+    let sum:number = 0;
+    let test:number = n;
+    let i: number = 0;
+    while (test != 0){
+      sum += (test % 10) * arr[ i++ % 6];
+      test = Math.floor(test / 10);
+    }
+    n = sum;
+  }
+  return n;
+}
+```
 
+>### Playing With Digits `TypeScript Exercise`
+```typescript 
+export class G964 {
+
+    public static digPow = (n: number, p: number) =>
+      (n=(String(n)
+      .split('')
+      .reduce((sum: number , d: string) => 
+              sum + (+d) ** p++, 0) / n), n % 1 ? -1 : n);
+    }
+```
+
+>### Valid Braces `TypeScript Exercise`
+```typescript 
+export function validBraces(braces: string): boolean {
+  while (/\(\)|\[\]|\{\}/g.test(braces))
+  {
+    braces = braces.replace(/\(\)|\[\]|\{\}/g,"")
+  }
+ return !braces.length;
+}
+```
+
+>### Tic-Tac-Toe `JavaScript Exercise`
+```javascript 
+function solveTTT(board) {
+  var xwin = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
+  ];
+  for (var i in xwin)
+    if (xwin[i].map((x) => board[x]).join('') == 'XX')
+      return xwin[i].reduce((x, y) => (board[y] == '' ? x + y : x), 0);
+  for (var i in board) if (board[i] == '') return +i;
+}
+```
+
+>### Tic-Tac-Toe-Like Table Generator `JavaScript Exercise`
+```javascript 
+function displayBoard(board, width){
+  let result = "";
+  for (let i = 0; i < board.length; i++) {
+    if (i > 0 && i % width === 0) {
+      result += "---".repeat(width) + "-".repeat(width - 1) + "\n";
+    }
+
+    result += " " + board[i] + " ";
+
+    if (i + 1 < board.length) {
+      if ((i + 1) % width === 0) result += "\n";
+      else result += "|";
+    }
+  }
+  return result;
+}
 ```
 
 ## _(Wednesday) May 18_ 📢
