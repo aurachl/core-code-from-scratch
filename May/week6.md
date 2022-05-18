@@ -52,7 +52,7 @@ export function warnTheSheep(queue: string[]): string {
 ```
     
 ## _(Tuesday) May 17_ 📢
->### A Rule Of Divisibility By 13  `TypeScript Exercise`
+>### A Rule Of Divisibility By 13  `TypeScript Exercise` 1️⃣3️⃣
 ```typescript 
 export function thirt(n: number): number {
   const arr: number[] = [1,10,9,12,3,4];
@@ -70,7 +70,7 @@ export function thirt(n: number): number {
 }
 ```
 
->### Playing With Digits `TypeScript Exercise`
+>### Playing With Digits `TypeScript Exercise` 🎮
 ```typescript 
 export class G964 {
 
@@ -82,7 +82,7 @@ export class G964 {
     }
 ```
 
->### Valid Braces `TypeScript Exercise`
+>### Valid Braces `TypeScript Exercise` 🔍
 ```typescript 
 export function validBraces(braces: string): boolean {
   while (/\(\)|\[\]|\{\}/g.test(braces))
@@ -93,7 +93,7 @@ export function validBraces(braces: string): boolean {
 }
 ```
 
->### Tic-Tac-Toe `JavaScript Exercise`
+>### Tic-Tac-Toe `JavaScript Exercise` ❌⭕❌
 ```javascript 
 function solveTTT(board) {
   var xwin = [
@@ -113,7 +113,7 @@ function solveTTT(board) {
 }
 ```
 
->### Tic-Tac-Toe-Like Table Generator `JavaScript Exercise`
+>### Tic-Tac-Toe-Like Table Generator `JavaScript Exercise` ⭕❌⭕
 ```javascript 
 function displayBoard(board, width){
   let result = "";
