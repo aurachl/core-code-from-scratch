@@ -134,15 +134,90 @@ function displayBoard(board, width){
 ```
 
 ## _(Wednesday) May 18_ 📢
->### Title `Exercise`
+>### Duplicate Encoder `TypeScript Exercise` 🖩
 ```typescript 
-
+export function duplicateEncode(word: string){
+  return word
+    .toLowerCase() // Transform the word to lowercase to ignore case
+    .split('')    // Transform the string to a array, with each item containing a letter
+    .map((letter:string,index:number,convert:string[]) =>{
+      // Verify if the word list in lowercase have the first and last appearance, and return correct bracket 
+      return convert.indexOf(letter) == convert.lastIndexOf(letter) ? '(' : ')';
+    })
+    // Have to return everything on a 'string'
+    .join('');
+}
 ```
 
+>### Find The Odd Int `TypeScript Exercise` 👀
+```typescript 
+export const findOdd = (xs: number[]): number => {
+ //With the reduce method and using XOR operator (^) we cancel/delete the duplicates returning the number with unique appereance
+ return xs.reduce((a:number,c:number) => a^c, 0);
+}
+```
+
+>### Which Are In? `TypeScript Exercise` ⛔
+```typescript 
+export class G964 {
+  public static inArray(a1: string[], a2: string[]): string[] {
+  //The sorted array to return
+  let r : string[] = [];
+  //Let's search word by word in both arrays
+  for(let a1Word in a1){
+  for(let a2Word in a2){
+    //In the case of one word of a2 contains a1 word as well we 'push' the match to the 'r' array
+    if (a2[a2Word].indexOf(a1[a1Word]) >= 0 && r.indexOf(a1[a1Word]) < 0) {
+      r.push(a1[a1Word]);
+    }
+  }
+  }
+  //Lexicographical order 
+  return r.sort();
+  }
+}
+```
+
+>### Sums Of Parts `TypeScript Exercise` 👥
+```typescript 
+export function partsSums(ls: number[]): number[] {
+  let sum = ls.reduce((sum:number, n:number) => sum + n, 0),
+  res  = [sum]
+  for (let i = 1; i <= ls.length; i++){
+    sum -= ls[i-1]
+    res.push(sum)
+  }
+  return res
+}
+```
+
+>###  Consecutive Strings `TypeScript Exercise` 📠
+```typescript 
+export function longestConsec(strarr: string[], k: number): string {
+  if (k > strarr.length || k < 1) return '';
+  return strarr.reduce(function(prevLongest, c, i, a) {
+    var str = a.slice(i, i + k).join('');
+    return str.length > prevLongest.length ? str : prevLongest;
+  }, 
+  '');
+}
+```
+   
 ## _(Thursday) May 19_ 📢
->### Title `Exercise`
+>### Tile `TypeScript Exercise` 🔳🔲🔳🔲
 ```typescript 
 
 ```
+
+>### Time `TypeScript Exercise` ⏰
+```typescript 
+
+```
+
+>### Rational `TypeScript Exercise` 🧠
+```typescript 
+
+```
+
 
 ## [📎 Back to main page !📎](/home/readAura.md)
