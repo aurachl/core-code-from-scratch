@@ -218,8 +218,8 @@ export class Tile {
   printTile(){
     console.log(`
     ==================
-      Letter: ${this.letter}
-      Value: ${this.value}
+    Letter: ${this.letter}
+    Value: ${this.value}
     ==================
     `);
   }
@@ -242,9 +242,9 @@ export class Time {
   printTime () {
     console.log(`
     ==================
-      Hours: ${this.hour}
-      Minutes: ${this.minute}
-      Seconds: ${this.second}
+    Hours: ${this.hour}
+    Minutes: ${this.minute}
+    Seconds: ${this.second}
     ==================
    
     `);
