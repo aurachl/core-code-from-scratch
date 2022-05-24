@@ -3,9 +3,33 @@
 ## _(Monday) May 23_ 📢
 
 `Learning about:` 💡
-* **Text**
+* **Enquirer**
 
->### Title `Typescript Exercise`
+>### Input `Exercise` ❓
+![imagen](https://user-images.githubusercontent.com/103008984/169948707-9d2c5475-c535-4547-99f5-02170a9f1e06.png)
+
+
+>### Form `Exercise` 📌
+```typescript 
+
+```
+
+>### Select `Exercise` 📎
+```typescript 
+
+```
+
+>### Select By Id `Exercise` 🔢
+```typescript 
+
+```
+
+>### Confirm `Exercise` ✅
+```typescript 
+
+```
+
+>### Readme - OOP `Exercise` 👓
 ```typescript 
 
 ```
