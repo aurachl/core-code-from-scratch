@@ -5,31 +5,22 @@
 `Learning about:` 💡
 * **Enquirer**
 
->### Input `Exercise` ❓
-![imagen](https://user-images.githubusercontent.com/103008984/169948707-9d2c5475-c535-4547-99f5-02170a9f1e06.png)
+>### Input `Example` ❓
+<img src="./assets/input.png" alt="Input" width="500">
 
+>### Form `Example` 📌
+<img src="./assets/form.png" alt="Form" width="500">
 
->### Form `Exercise` 📌
-```typescript 
+>### Select `Example` 📎
+<img src="./assets/select.gif" alt="Select" width="500">
 
-```
+>### Select By Id `Example` 🔢
+<img src="./assets/selectbyID.gif" alt="SelectbyID" width="500">
 
->### Select `Exercise` 📎
-```typescript 
+>### Confirm `Example` ✅
+<img src="./assets/confirm.gif" alt="Confirm" width="500">
 
-```
-
->### Select By Id `Exercise` 🔢
-```typescript 
-
-```
-
->### Confirm `Exercise` ✅
-```typescript 
-
-```
-
->### Readme - OOP `Exercise` 👓
+>### OOP in TypeScript Guide `Exercise` 👓
 ```typescript 
 
 ```
