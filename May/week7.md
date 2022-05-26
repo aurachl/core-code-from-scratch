@@ -26,9 +26,13 @@
 ```
 
 ## _(Tuesday) May 24_ 📢
->### Title `Exercise`
-```typescript 
-```
+>### Menu 👩‍🍳 `Exercise`
+<img src="./assets/menuapp.gif" alt="Menu App" width="500">
+
+>### Movies 📽️ `Exercise`
+<img src="./assets/moviesapp.gif" alt="Movies App" width="500">
+
+
 ## _(Wednesday) May 25_ 📢
 >### Title `Exercise`
 ```typescript 
