@@ -26,19 +26,66 @@
 ```
 
 ## _(Tuesday) May 24_ 📢
->### Menu 👩‍🍳 `Exercise`
+>### Food Menu 👩‍🍳 `Exercise`
 <img src="./assets/menuapp.gif" alt="Menu App" width="500">
 
 >### Movies 📽️ `Exercise`
-<img src="./assets/moviesapp.gif" alt="Movies App" width="500">
 
+>### Menu and Exit 🎬
+<img src="./assets/menumovies.gif" alt="Menu Movies" width="500">
+
+>### Add Action Movie 🚓
+<img src="./assets/addactionmovie.gif" alt="Add Action Movie" width="500">
+
+>### Add Horror Movie 🪦
+<img src="./assets/addhorrormovie.gif" alt="Add Action Movie" width="500">
+
+>### Action Movies List 🚀
+<img src="./assets/actionmovieslist.png" alt="Add Action Movie" width="500">
+
+>### Horror Movies List ☠️
+<img src="./assets/horrormovieslist.png" alt="Add Action Movie" width="500">
+
+>### Increment Explosions ☢️
+<img src="./assets/moreexplosions.gif" alt="Add Action Movie" width="500">
+
+>### Increment Jump Scares 😨
+<img src="./assets/morejumpscares.gif" alt="Add Action Movie" width="500">
 
 ## _(Wednesday) May 25_ 📢
->### Title `Exercise`
+>### Interfaces Guided `Exercise`
 ```typescript 
+
 ```
+
+>### Build Tower `Exercise`
+```typescript 
+export const towerBuilder = (nFloors: number): string[] => {
+  let array = [];
+  for (let i = nFloors; i >= 1; i--) {
+    let space = (nFloors - i);
+    let stars = i * 2 - 1;
+    array.push(" ".repeat(space) + "*".repeat(stars) + " ".repeat(space));
+  }
+  return array.reverse();
+}
+```
+
+>### Meeting `Exercise`
+```typescript 
+export function meeting(s: string): string {
+   return s
+    .split(';')
+    .map((el) => '(' + el.split(':').reverse().join(', ').toUpperCase() + ')')
+    .sort()
+    .join('');
+}
+```
+
 ## _(Thursday) May 26_ 📢
->### Title `Exercise`
-```typescript 
-```
+`Learning about:` 💡
+* **Object Oriented Programming - The Four Pillars of OOP** 💠
+* **Abstract Classes vs Interfaces** 🥊
+* **Abstract Classes** 💭
+
 ## [📎 Back to main page !📎](/home/readAura.md)
