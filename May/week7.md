@@ -21,7 +21,8 @@
 <img src="./assets/confirm.gif" alt="Confirm" width="500">
 
 >### OOP in TypeScript Guide `Exercise` 👓
->#### [Learning about 🧠 What is OPP? 😶‍🌫️ The Four Principles and other functions 🤯 HERE!!](May/assets/guide.md)
+>#### [Learning about 🧠 What is OPP? 😶‍🌫️ The Four Principles and other functions 🤯 HERE!!](/May/assets/guide.md)
+>May/assets/guide.md
 
 ## _(Tuesday) May 24_ 📢
 >### Food Menu 👩‍🍳 `Exercise`
