@@ -22,7 +22,6 @@
 
 >### OOP in TypeScript Guide `Exercise` 👓
 >#### [Learning about 🧠 What is OPP? 😶‍🌫️ The Four Principles and other functions 🤯 HERE!!](/May/assets/guide.md)
->May/assets/guide.md
 
 ## _(Tuesday) May 24_ 📢
 >### Food Menu 👩‍🍳 `Exercise`
