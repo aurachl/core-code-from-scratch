@@ -43,7 +43,7 @@ export default class abstraction {
   }
 }
 ```
-<img src="./assets/abstraction.gif" alt="Abstraction" width="500">
+<img src="/May/assets/abstraction.gif" alt="Abstraction" width="350">
 
 >#### Inheritance 👥
 <code> Relationships and subclasses between objects can be assigned, allowing developers to reuse a common logic while still maintaining a unique hierarchy.</code>
