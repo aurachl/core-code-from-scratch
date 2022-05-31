@@ -44,6 +44,7 @@ export default class abstraction {
 }
 ```
 `Demonstration`
+
 <img src="/May/assets/abstraction.gif" alt="Abstraction" width="350">
 
 >#### Inheritance 👥
@@ -110,6 +111,7 @@ export default class insurancePolicy extends car {
     }
 ```
 `Demonstration`
+
 <img src="/May/assets/inheritance.gif" alt="Inheritance" width="500">
 
 >#### Polymorphism ☄️  
@@ -149,6 +151,7 @@ export class GasCar extends car {
 }
 ```
 `Demonstration`
+
 <img src="/May/assets/polymorphism.gif" alt="Polymorphism" width="500">
 
 >#### Encapsulation 🧱
@@ -177,6 +180,7 @@ export default class car {
 }
 ```
 `Demonstration`
+
 <img src="/May/assets/encapsulation.gif" alt="Encapsulation" width="500">
 
 >### Special functions 
@@ -189,6 +193,8 @@ export default class car {
 ```
 `Demonstration`
 
+
+
 >#### Object 🚨
 <code> Objects are variables too. But objects can contain many values. </code>
 
@@ -197,6 +203,8 @@ export default class car {
 
 ```
 `Demonstration`
+
+
 
 >#### Instance ⏲️
 <code> An instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. </code>
@@ -207,6 +215,8 @@ export default class car {
 ```
 `Demonstration`
 
+
+
 >#### Interface 📝
 <code> Interfaces are similar to type aliases, except they only apply to object types. </code>
 
@@ -215,6 +225,8 @@ export default class car {
 
 ```
 `Demonstration`
+
+
 
 >#### Access Modifiers ✍️
 <code> Accessibility restriction is the way how encapsulation or information hiding is implemented. This tenet of information hiding isolates the concern of one class from another. </code>
@@ -225,6 +237,8 @@ export default class car {
 ```
 `Demonstration`
 
+
+
 >#### Constructors 🚧
 <code> Responsible for allocating memory for the objects of the class. </code>
 
@@ -233,6 +247,8 @@ export default class car {
 
 ```
 `Demonstration`
+
+
 
 ## [🔙 Back to Week 7 🔙](/May/week7.md)
 
