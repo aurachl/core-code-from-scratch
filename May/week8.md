@@ -12,7 +12,7 @@ function addNumbers(num1:number, num2:number) {
   }
   console.log(addNumbers(3, 6));
 ```
->### Demostration
+>### Demonstration
 <img src="/May/assets/getstartedts.gif" alt="Get Started TS Microsoft" width="500"> `Badge` <img src="/May/assets/module1.png" alt="Abstraction" width="400">
 
 
@@ -87,7 +87,7 @@ let nextNumber:number;
    }  
 console.log(randomNumbers);
 ```
->### Demostration
+>### Demonstration
 <img src="/May/assets/decvartype.gif" alt="Variables types TS Microsoft" width="500"> `Badge` <img src="/May/assets/module2.png" alt="Abstraction" width="400">
 
 ## _(Tuesday) May 31_ 📢
