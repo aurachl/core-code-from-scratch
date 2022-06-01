@@ -189,10 +189,33 @@ export default class car {
 
 `Code`
 ```typescript 
-
+export default class car {
+  //Properties 
+  automaker: string;
+  model: string;
+  year: number;
+  color: string;
+  //Constructor 
+  constructor(
+    automaker: string,
+    model: string,
+    year: number,
+    color: string,
+  ) {
+    this.automaker = automaker;
+    this.model = model;
+    this.year = year;
+    this.color = color;
+  } 
+  //Methods 
+  carDescription() {
+  console.log('Register Car Details...🚗')
+  console.log(`${this.automaker} ${this.model} ${this.year} ${this.color}`);
+  }
 ```
 `Demonstration`
 
+<img src="/May/assets/class.gif" alt="Class" width="350">
 
 
 >#### Object 🚨
@@ -200,10 +223,18 @@ export default class car {
 
 `Code`
 ```typescript 
-
+const object: { automaker: string, model: string, year: number, color : string } = {
+    automaker: "Toyota",
+    model: "Corolla",
+    year: 2009,
+    color: 'Pink'
+};
+console.log('Example Object Car');
+console.log(object);
 ```
 `Demonstration`
 
+<img src="/May/assets/object.gif" alt="Object" width="350">
 
 
 >#### Instance ⏲️
@@ -211,44 +242,106 @@ export default class car {
 
 `Code`
 ```typescript 
-
+let car1 = new car ('Honda','Civic',2008,'Blue');
+console.log(car1);
+let car2 = new car ('Aston Martin','Vanquish',2020,'Gray');
+console.log(car2);
+let car3 = new car ('Toyota','Hilux',2022,'Red');
+console.log(car3);
 ```
 `Demonstration`
 
-
+<img src="/May/assets/instance.gif" alt="Instance" width="500">
 
 >#### Interface 📝
 <code> Interfaces are similar to type aliases, except they only apply to object types. </code>
 
 `Code`
 ```typescript 
+export default interface warranty {
+    automaker: string;
+    model: string;
+    owner: string;
+    claim: (receipt: number) => void;
+}
+//--------------------------------------
+import warranty from "./warranty";
 
+export default class auto implements warranty {
+    automaker: string;
+    model: string;
+    year: number;
+    owner: string;
+
+    constructor(
+        automaker: string,
+        model: string,
+        year: number,
+        owner: string
+    ){
+    this.automaker = automaker;
+    this.model = model;
+    this.year = year;
+    this.owner = owner;
+    }
+
+    register(){
+    console.log('Registered Car Details...🚗')
+    console.log(`${this.automaker} ${this.model} ${this.year} ${this.owner}`);
+}
+    claim(receipt: number){
+        console.log(`The claim with the ID [${receipt}] belongs to ${this.owner} 
+        Who owns Car:${this.automaker} ${this.model}`);
+    }
+}
+//--------------------------------------
+export default class main implements runnable{
+    start(){
+        const auto1 = new auto('BMW','M3',2018,'Jimmy McGill');
+        auto1.register();
+        auto1.claim(7898568);
+        console.log(auto1.claim);
+}
 ```
 `Demonstration`
 
-
+<img src="/May/assets/interface.gif" alt="Interface" width="500">
 
 >#### Access Modifiers ✍️
 <code> Accessibility restriction is the way how encapsulation or information hiding is implemented. This tenet of information hiding isolates the concern of one class from another. </code>
 
 `Code`
 ```typescript
-
+export default class car {
+  automaker: string;
+  model: string;
+  year: number;
+  color: string;
+  //Protected members are only visible to subclasses of the class they’re declared in.
+  protected owner: string = '';
+} 
 ```
 `Demonstration`
 
-
+<img src="/May/assets/accessmod.gif" alt="Access Modifiers" width="500">
 
 >#### Constructors 🚧
 <code> Responsible for allocating memory for the objects of the class. </code>
 
 `Code`
 ```typescript 
-
+ constructor(
+    automaker: string,
+    model: string,
+    year: number,
+    color: string,
+  ) {
+    this.automaker = automaker;
+    this.model = model;
+    this.year = year;
+    this.color = color;
+  } 
 ```
-`Demonstration`
-
-
 
 ## [🔙 Back to Week 7 🔙](/May/week7.md)
 
