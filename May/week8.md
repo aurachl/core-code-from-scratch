@@ -13,7 +13,7 @@ function addNumbers(num1:number, num2:number) {
   console.log(addNumbers(3, 6));
 ```
 >### Demonstration
-<img src="/May/assets/getstartedts.gif" alt="Get Started TS Microsoft" width="500"> `Badge` <img src="/May/assets/module1.png" alt="Abstraction" width="400">
+<img src="/May/assets/getstartedts.gif" alt="Get Started TS Microsoft" width="500"> `Badge` <img src="/May/assets/module1.png" alt="Module 1" width="400">
 
 
 >### Declare Variable Types In `TypeScript` ⌨️
@@ -88,12 +88,27 @@ let nextNumber:number;
 console.log(randomNumbers);
 ```
 >### Demonstration
-<img src="/May/assets/decvartype.gif" alt="Variables types TS Microsoft" width="500"> `Badge` <img src="/May/assets/module2.png" alt="Abstraction" width="400">
+<img src="/May/assets/decvartype.gif" alt="Variables types TS Microsoft" width="500"> `Badge` <img src="/May/assets/module2.png" alt="Module 2" width="400">
 
 ## _(Tuesday) May 31_ 📢
->### Title `Exercise`
+
+`Learning about:` 💡
+* **Abstract Classes vs Interfaces📹**
+
+>### Develop Typed Functions `Exercise`
 ```typescript 
+
 ```
+>### Demonstration
+<img src="/May/assets/devtypfunc.gif" alt="Develop Typed Functions TS Microsoft" width="500"> `Badge` <img src="/May/assets/module4.png" alt="Module 4" width="400">
+
+>### Declare and Instantiate Classes  `Exercise`
+```typescript 
+
+```
+>### Demonstration
+<img src="/May/assets/decinstclass.gif" alt="Declare and Instantiate Classes TS Microsoft" width="500"> `Badge` <img src="/May/assets/module5.png" alt="Module 5" width="400">
+
 ---
 
 <h3 align="center"> 🇯 🇺 🇳 🇪 </h3>
