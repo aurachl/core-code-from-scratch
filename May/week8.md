@@ -97,14 +97,136 @@ console.log(randomNumbers);
 
 >### Develop Typed Functions `Exercise`
 ```typescript 
+//EXERCISE 1
+    interface compareFunctionType {
+        (a: number, b:number): number;
+    }
 
+let sortDescending: compareFunctionType = (a, b) => {
+    if (a > b) {
+        return -1;
+    } else if (b > a) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+let sortAscending : compareFunctionType = (a, b) => {
+    if (a > b) {
+        return 1;
+    } else if (b > a) {
+        return -1;
+    } else {
+        return 0;
+    }
+}
+
+function buildArray(items:number, sortOrder: 'ascending'|'descending'):number[] {
+    let randomNumbers:number[] = [];
+    let nextNumber:number;
+    for (let counter = 0; counter < items; counter++) {
+        nextNumber = Math.ceil(Math.random() * (100 - 1));
+        if (randomNumbers.indexOf(nextNumber) === -1) {
+          randomNumbers.push(nextNumber);
+        } else {
+          counter--;
+        }
+    }
+    if (sortOrder === 'ascending') {
+      return randomNumbers.sort(sortAscending);
+    } else {
+      return randomNumbers.sort(sortDescending);
+    }
+}
+//TEST
+let myArray1 = buildArray(12, 'ascending');
+let myArray2 = buildArray(8, 'descending');
+console.log(myArray1);
+console.log(myArray2);
+
+//EXERCISE 2
+function loanCalculator (principle:number, interestRate:number, months=12):string {
+    let interest:number = interestRate / 1200;   // Calculates the monthly interest rate
+    let payment:number;
+    payment = principle * interest / (1 - (Math.pow(1/(1 + interest), months)));
+    return payment.toFixed(2);
+}
+//TEST
+let myLoan = loanCalculator(1000, 5);
+console.log(myLoan);
 ```
 >### Demonstration
 <img src="/May/assets/devtypfunc.gif" alt="Develop Typed Functions TS Microsoft" width="500"> `Badge` <img src="/May/assets/module4.png" alt="Module 4" width="400">
 
 >### Declare and Instantiate Classes  `Exercise`
 ```typescript 
+class BuildArray {
+ 
+    private _items: number;
+    private _sortOrder: 'ascending'|'descending';
 
+    constructor(items:number, sortOrder:'ascending'|'descending'){
+        this._items = items;
+        this._sortOrder = sortOrder;
+    }
+ 
+    get items() {
+        return this._items;
+    }
+    set items(items) {
+        this._items = items;
+    }
+    get sortOrder() {
+        return this._sortOrder;
+    }
+    set sortOrder(sortOrder) {
+        this._sortOrder = sortOrder;
+    }
+   
+    private sortDescending = (a: number, b: number) => {
+        if (a > b) {
+            return -1;
+        } else if (b > a) {
+            return 1;
+        } else {
+            return 0; }
+    }
+
+    private sortAscending = (a: number, b: number) => {
+        if (a > b) {
+            return 1;
+        } else if (b > a) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+
+    buildArray(): number[] {
+        let randomNumbers: number[] = [];
+        let nextNumber: number;
+        for (let counter = 0; counter < this.items; counter++) {
+            nextNumber = Math.ceil(Math.random() * (100 - 1));
+            if (randomNumbers.indexOf(nextNumber) === -1) {
+                randomNumbers.push(nextNumber);
+            } else {
+                counter--;
+            }
+        }
+        if (this.sortOrder === 'ascending') {
+            return randomNumbers.sort(this.sortAscending);
+        } else {
+            return randomNumbers.sort(this.sortDescending);
+        }
+    }
+}
+
+let testArray1 = new BuildArray(12, 'ascending');
+let testArray2 = new BuildArray(8, 'descending');
+//TEST
+console.log(testArray1.buildArray());
+console.log(testArray2.buildArray());
 ```
 >### Demonstration
 <img src="/May/assets/decinstclass.gif" alt="Declare and Instantiate Classes TS Microsoft" width="500"> `Badge` <img src="/May/assets/module5.png" alt="Module 5" width="400">
@@ -115,9 +237,18 @@ console.log(randomNumbers);
 
 ---
 ## _(Wednesday) June 01_ 📢
->### Title `Exercise`
+>### Define Generics `Exercise`
 ```typescript 
+
 ```
+>### Demonstration
+<img src="/May/assets/defgen.gif" alt="Define Generics TS Microsoft" width="500"> `Badge` <img src="/May/assets/module6.png" alt="Module 6" width="400">
+
+>### Make the Deadfish Swim `Exercise`
+```typescript 
+
+```
+
 ## _(Thursday) June 02_ 📢
 >### Title `Exercise`
 ```typescript 
