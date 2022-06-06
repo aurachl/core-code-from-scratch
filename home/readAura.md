@@ -8,6 +8,8 @@ class Mission Statement🔐 {
         this.skills = "Organization, Communication, Analytical Capacity, Creativity" 🧱
         this.language_spoken = ["es_ES", "en_US"] 🇬🇹
     console.log("Thanks for dropping by, Developer in process...") 🔧
+    }
+}
 ```
 
 # 🎯 Week Challenges Core-Code DataBase 🚀
