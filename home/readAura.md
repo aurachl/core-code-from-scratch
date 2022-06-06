@@ -1,6 +1,14 @@
-<h1 align="center"> ⚠️ Mission Statement ⚠️ </h1>
+<h1 align="center">🪐 Welcome 🛸</h1>
 
-<p align="justify"><b> Ey! My name is Aura 🇬🇹, a hardworking professional seeking growth in the software development and information security field 🔐. With experience on various social media platforms and business technology programs 📊. I'm an organized person, easy to communicate with co-workers and clients, loved to keep learning new things and strong believer of always act with equity, effort, and fellowship 🌸. </b></p>
+```javascript
+class Mission Statement🔐 { 
+    AboutMe(){
+        this.name = "Aura" 🌸
+        this.goal = "Growth in the software development" ⚙️
+        this.skills = "Organization, Communication, Analytical Capacity, Creativity" 🧱
+        this.language_spoken = ["es_ES", "en_US"] 🇬🇹
+    console.log("Thanks for dropping by, Developer in process...") 🔧
+```
 
 # 🎯 Week Challenges Core-Code DataBase 🚀
 ## April 📅
