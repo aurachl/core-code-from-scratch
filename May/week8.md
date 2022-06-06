@@ -307,7 +307,31 @@ export function parse(data: string): number[] {
 ## _(Thursday) June 02_ 📢
 >### Generics `Exercise`
 ```typescript 
-
+//addFirst: Adds a new node at the start of the structure
+public addFirst(value: T) {
+    if (this.head === null) {
+      this.add (value);
+    } else {
+      let node = new Node(value);
+      node.next = this.head;
+      this.head = node;
+      this.length++;
+    }
+  }
+  
+//removeLast: Removes the last node of the structure
+public removeLast():void{
+    if (this.head !== null){
+      let node = this.head;
+      let prev : Node<T> = node;
+      while (node.next !== null){
+        prev = node;
+        node = node.next;
+      }
+      prev.next = null;
+      this.length--;
+    }
+  }
 ```
 >### Demonstration
 <img src="/May/assets/generics.gif" alt="Generics TS Exercise" width="500">
@@ -316,6 +340,7 @@ export function parse(data: string): number[] {
 ```typescript 
 
 ```
+>### Demonstration
 <img src="/May/assets/tictactoe.gif" alt="TicTacToe TS Exercise" width="500">
 
 ## [📎 Back to main page !📎](/home/readAura.md)
