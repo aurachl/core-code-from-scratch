@@ -338,9 +338,105 @@ public removeLast():void{
 
 >### TicTacToe `Exercise`
 ```typescript 
+//Player Class
+export default class Player {
+    get name() {
+      return this.nickname;
+    }
+  
+    set name(name: string) {
+      this.nickname = name;
+    }
+    constructor(private nickname: string) {}
+}
 
+//Board Class
+export class Board {
+  private board: BoardValues[][] = [];
+  private positionMap: Map<number, [number, number]> = new Map();
+  private playerOne: string = '🐰';
+  private playerTwo: string = '🐢';
+
+  constructor(private rows: number, private columns: number) {
+    this.createBoard();
+  }
+  
+  private createBoard(): void {}
+  private checkBoardCellToDisplay(cellValue: number): string {}
+  clearBoard(): void {}
+  checkValidCellValue(cellNumber: number): boolean {}
+  checkFullBoard(): boolean {}
+  setBoardCellValue(cellNumber: number, value: UserOption): boolean {}
+  getBoardCellValue(cellNumber: number): BoardValues {}
+  displayBoard(playerOne: Player, playerTwo: Player): string {}
+}
+
+//TicTacToe Class
+export default class TicTacToe {
+  private history: History[] = [];
+  private endMessage: string = '';
+  private board: Board;
+  private players!: [Player, Player];
+
+  constructor() {
+    this.board = new Board(3, 3);
+  }
+  
+  private checkFirstRowIsFull(): boolean {}
+  private checkSecondRowIsFull(): boolean {}
+  private checkThirdRowIsFull(): boolean {}
+  private checkFirstColumnIsFull(): boolean {}
+  private checkSecondColumnIsFull(): boolean {}
+  private checkThirdColumnIsFull(): boolean {}
+  private checkDiagonalIsFull(): boolean {}
+  private checkInverseDiagonalIsFull(): boolean {}
+  private checkValidMove(move: number): boolean {}
+  private checkEndOfGameByWinning(): boolean {}
+  private checkEnOfGameByTie(): boolean {}
+  private move(player: Player, move: number, value: UserOption): boolean {}
+  private displayGame(): void {}
+  async playersSetup() {}
+  async startGame() {}
+  showHistory(): void {}
+}
+
+//Main Class
+export default class Main {
+  gameMenu = [
+    { option: 1, message: 'New game!🕹️' },
+    { option: 2, message: 'Show last game 💾' },
+    { option: 3, message: 'Exit 🚪' },
+  ];
+
+  async start() {
+    let option = -1;
+    let input: UserOption;
+    let tickTackToe = new TicTacToe();
+    while (option !== 3) {
+      input = await Input.getSelect('❌⭕▞▞ TicTacToe ▞▞⭕❌', this.gameMenu);
+      option = input.data;
+      switch (option) {
+        case 1:
+          await tickTackToe.startGame();
+          break;
+        case 2:
+          tickTackToe.showHistory();
+          break;
+        case 3:
+          console.log(`\n
+          
+          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+          ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+          👾👾👾👾👾👾👾👾◕GAME OVER◕👾👾👾👾👾👾👾👾
+          ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒\n`);
+          break;
+      }
+    }
+  }
+}
 ```
 >### Demonstration
-<img src="/May/assets/tictactoe.gif" alt="TicTacToe TS Exercise" width="500">
+<img src="/May/assets/tictactoe.gif" alt="TicTacToe TS Exercise" width="800">
 
 ## [📎 Back to main page !📎](/home/readAura.md)
