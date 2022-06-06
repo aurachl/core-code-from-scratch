@@ -294,6 +294,7 @@ export class Rational {
 
 }
 ```
-
+>## 4th Core Challenge 🧑‍🚀
+>## [📨 Scrum Certification 📨](https://github.com/aurachl/Scrum/blob/a5daf630cf74d0bf76aeda5145c3c0b8c64211e0/README.md)
 
 ## [📎 Back to main page !📎](/home/readAura.md)
