@@ -6,7 +6,7 @@
 
 <h3 align="center"> Learning about: S.O.L.I.D Principles, O.P.P, JavaScript, TypeScript, React & Node. </h3>
 
-## Want to see some challenges and know more about DevWeb? Don't stop and [Click here!🔗](home/readAura.md)
+## Want to know more about DevWeb? Don't stop and [Click here!🔗](home/readAura.md)
 
 
 
