@@ -13,37 +13,37 @@ class Mission Statement🔐 {
 ```
 
 # 🎯 Week Challenges Core-Code DataBase 🚀
-## April 📅
+## 🅰️pril 📅
 ## Weeks
 
->[🅰️pril 1️⃣st. week challenges !](/April/week1.md)
+>[1️⃣st. week challenges !](/April/week1.md)
 
-`     ⛺     ⛵     🌴     🌊     Holy Interval     🌊     🌴     ⛵     ⛺`
+> 🌊🐚🌴⛱️ Holy Interval ⛱️🌴🐚🌊
 
->[🅰️pril 2️⃣nd. week challenges !](/April/week2.md)
+>[2️⃣nd. week challenges !](/April/week2.md)
 
->[🅰️pril 3️⃣rd. week challenges !](/April/week3.md)
+>[3️⃣rd. week challenges !](/April/week3.md)
 
-## May 📅
+## Ⓜ️ay 📅
 ## Weeks
 
->[Ⓜ️ay 4️⃣th. week challenges !](/May/week4.md)
+>[4️⃣th. week challenges !](/May/week4.md)
 
->[Ⓜ️ay 5️⃣th. week challenges !](/May/week5.md)
+>[5️⃣th. week challenges !](/May/week5.md)
 
->[Ⓜ️ay 6️⃣th. week challenges !](/May/week6.md)
+>[6️⃣th. week challenges !](/May/week6.md)
 
->[Ⓜ️ay 7️⃣th. week challenges !](/May/week7.md)
+>[7️⃣th. week challenges !](/May/week7.md)
 
->[Ⓜ️ay 8️⃣th. week challenges !](/May/week8.md)
+>[8️⃣th. week challenges !](/May/week8.md)
 
-## June 📅 
+>[9️⃣th. week challenges !](/May/week9.md)
+
+## 🇯une 📅 
 ## Weeks  
 
->[🇯une 9️⃣th. week challenges !](/June/week9.md)
+>[🔟th. week challenges !](/June/week10.md)
 
->[🇯une 🔟th. week challenges !](/June/week10.md)
+>[1️⃣1️⃣th. week challenges !](/June/week11.md)
 
->[🇯une 1️⃣1️⃣th. week challenges !](/June/week11.md)
-
->[🇯une 1️⃣2️⃣th. week challenges !](/June/week12.md)
+>[1️⃣2️⃣th. week challenges !](/June/week12.md)
