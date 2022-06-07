@@ -4,6 +4,7 @@
 
 `Learning about:` 💡
 * **Enquirer**
+> Stylish `CLI prompts` that are user-friendly, intuitive and easy to create. Is fast, easy to use, and lightweight enough for small projects, while also being `powerful and customizable` enough for the most advanced use cases.
 
 >### Input `Example` ❓
 <img src="./assets/input.png" alt="Input" width="500">
@@ -106,7 +107,25 @@ export function meeting(s: string): string {
 ## _(Thursday) May 26_ 📢
 `Learning about:` 💡
 * **Object Oriented Programming - The Four Pillars of OOP** 💠
+
+> Abstraction 
+>> Objects `only reveal internal mechanisms` that are `relevant for the use` of other objects, hiding any unnecessary implementation code. This concept helps developers more easily make changes and additions over time. 
+
+> Inheritance 
+>> Relationships and subclasses between objects can be assigned, `allowing developers to reuse a common logic` while still maintaining a unique hierarchy.
+
+> Polymorphism
+>> Objects can `take on more than one form` depending on the context. The program will determine which `meaning or usage is necessary` for each execution of that object. 
+
+> Encapsulation
+>> This characteristic of `data hiding` provides greater program `security` and `avoids` unintended data corruption. 
+
 * **Abstract Classes vs Interfaces** 🥊
+> The key difference between interfaces and abstract classes in any programming language is that `classes allow you to define implementation details`. `Interfaces solely define how data is structured`. Classes allow you to define methods, fields, and properties. Classes also provide a way to template objects, defining default values.
+
+> Unlike other programming languages where interfaces can only be used with classes, TypeScript allows you to `use an interface to define a data structure without the need for a class`. You can use `interfaces to define` parameter objects for functions, define the structure for various framework properties, and define how objects look from remote services or APIs.
+
 * **Abstract Classes** 💭
+> Abstract classes are like a `mixture of implementing interfaces and extending a class in one step`. You can create a class with `optional methods and properties`, but also indicate which `methods and properties must be implemented in the derived class`. Note that your base class, despite enforcing abstract rules, is still able to itself implement any interfaces you desire.
 
 ## [📎 Back to main page !📎](/home/readAura.md)
