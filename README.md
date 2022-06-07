@@ -1,10 +1,12 @@
-<h1 align="center"> 🚨 Core-Code-from-scratch 🚨 </h1>
+<h1 align="center"> 🤖 Software Dev. Fundamentals 🤖 </h1>
 
-<h2 align="center"> 🚀 Challenges Dev-0 🚀 </h2>
+<h1 align="center"> 👽 Core-Code 👽 </h1>
 
-**Hi! Welcome to my readme of the bootcamp `Free Software Dev. Fundamentals`**
+<h3 align="center">⚙️ Hi! Welcome to my readme of the bootcamp <i> Software Dev. Fundamentals ⚙️</i> </h3>
 
-**Want to known more about me? Check this out!** [Challenges🏁](home/readAura.md)
+<h3 align="center"> Learning about: S.O.L.I.D Principles, O.P.P, JavaScript, TypeScript, React & Node. </h3>
+
+## Want to see some challenges and know more about DevWeb? Don't stop and [Click here!🔗](home/readAura.md)
 
 
 
