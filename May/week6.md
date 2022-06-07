@@ -4,6 +4,9 @@
 
 `Learning about:` 💡
 * **Everyday types in TypeScript**
+> `Types` can appear in many more places than just `type annotations`. As we learn about the types themselves, we’ll also learn about the `places` where we can refer to these types to `form new constructs`.
+
+> In TypeScript three very commonly used `primitives` are `string, number, and boolean`. But, there are another types like `any, functions, anonymous functions, object types, optional properties, type aliases, interfaces, enums`, etc.
 
 >### Square(n) Sum `TypeScript Exercise` 🧮
 ```typescript 
