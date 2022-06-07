@@ -53,7 +53,18 @@ function revrot(str, sz) {
 
 `Learning about:` 💡
 * **TypeScript Handbook**
+> The `TypeScript Handbook` is intended to be a `comprehensive document` that `explains TypeScript` to everyday `programmers`. You can `read` the handbook by going from `top to bottom` in the `left-hand` navigation. The documentation includes the `basics, objects types,  type manipulation, classes, modules`, etc.
+
 * **Type vs Interface in TypeScript**
+> The difference between types and interfaces in TypeScript used to be more clear, but with the latest versions of TypeScript, they’re becoming more similar.
+
+`Interfaces` are basically a way to `describe data shapes`, for example, an object.
+
+`Type` is a definition of a `type of data`, for example, a union, primitive, intersection, tuple, or any other type.
+
+`Interfaces` are better when you `need to define a new object or method of an object`. 
+
+`Types` are better when you `need to create functions`, for example. Let’s imagine that we have a function that’s going to return an object called, type alias is more recommended for this approach
 
 >### TypeScript Object Type `Exercise` 📑
 ```typescript
