@@ -18,7 +18,7 @@ class Mission Statement🔐 {
 
 >[1️⃣st. week challenges !](/April/week1.md)
 
-> 🌊🐚🌴⛱️ Holy Interval ⛱️🌴🐚🌊
+#### 🌊🐚🌴⛱️ Holyday ⛱️🌴🐚🌊
 
 >[2️⃣nd. week challenges !](/April/week2.md)
 
