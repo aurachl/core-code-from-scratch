@@ -51,8 +51,27 @@
 ## _(Wednesday) June 08_ 📢
 `Learning about:` 💡
 * **S.O.L.I.D**
-> Summary
+>**Summary**
+>>It is a tool that includes `principles` with the main goal of `help developers` to `write better code`.
 >>
+>**Bases**
+>>
+>>Code easy of support
+>>
+>>Easy of change/modify
+>>
+>>Be very extensible
+
+>**Principles**
+>>**S**ingle Responsibility: Every class needs to have just one `'task'` or `'functionality'` on the program.
+>>
+>>**O**pen Closed: A software entity have to be `open to extension` but `closed to modification`, is one effective way of `protect` our code.
+>>
+>>**L**iskov Substitution: Any subclass object should be `substitutable` for the superclass object from which it is `derived`.
+>>
+>>**I**nterface Segregation: Separate with `small classes` that implement `specific functionality`.
+>>
+>>**D**ependency Inversion: The modules of `high level` have to depends on `abstract elements`. 
 
 ## _(Thursday) June 09_ 📢
 `Learning about:` 💡
