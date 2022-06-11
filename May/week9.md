@@ -76,7 +76,21 @@
 ## _(Thursday) June 09_ 📢
 `Learning about:` 💡
 * **More about OPP**
-> Conclusions
->>
+>**Conclusion**
+>
+> Object-oriented programming simplifies the programming process for us. It has many values like reusability, efficiency, and maintenance of code. While it may initially be hard to understand OOPs concepts will be worth the effort. 
+
+>**Advantages**
+* A real-world idea can be demonstrated, as everything in OOP is treated as an object.
+* As we use the concept of encapsulation, programs are easier to test and maintain.
+* Faster development of code is done as we develop classes parallel instead of sequentially.
+* OOP provides greater security due to data abstraction. The outside world cannot access the hidden data.
+* Reusability can be achieved by using classes that have been already written.
+
+>**Disadvantages**
+* Designing a program with an OOP concept can be tricky.
+* A programmer needs to plan beforehand for developing a program in OOP.
+* The size of programs developed with OOP is bigger than those developed with a procedural approach.
+* Since OOP programs are larger in size, the execution time for these programs is also more.
 
 ## [📎 Back to main page !📎](/home/readAura.md)
