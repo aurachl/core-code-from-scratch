@@ -2,30 +2,41 @@
 
 ## _(Monday) June 13_ 📢
 
-`Learning about:` 💡
-* **Theme**
+### React / Node.JS ⚛️
 
->### Title `Exercise`
-```typescript 
-
-```
+>### Introduction 🚪
+>>
 
 ## _(Tuesday) June 14_ 📢
 
-`Learning about:` 💡
-* **Theme**
+>### Covering the basics 🧬
+>> **What Is React (React js) & Why Is It So Popular?**
 
->### Title `Exercise`
-```typescript 
+>> **Summary**
+
+>### Easter Egg List in `ReactJS` 🐰
+```javascript 
 
 ```
 
 ## _(Wednesday) June 15_ 📢
-`Learning about:` 💡
-* **Theme**
+
+>## Practice 💻
+
+>### Node.JS Core 🧠
+
+>### Node.JS Module System 🧪
+
+>### Client-Server Model 🔗 
 
 ## _(Thursday) June 16_ 📢
-`Learning about:` 💡
-* **Theme**
+
+>### APIs Core 💾
+
+>### From JSON to REST 🛗
+
+>### REST API Clients 📦
+
+>### Express.JS Core 🎯
 
 ## [📎 Back to main page !📎](/home/readAura.md)
