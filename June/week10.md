@@ -25,11 +25,23 @@ React is a JavaScript `library` for building fast and interactive `user interfac
 React applications are `components`, a component is essentially a piece of the user interface so when building applications with react we build a bunch of `independent isolated and reusable components` and then compose them to build `complex user interfaces`.
 
 ### Learning React 🚩
-
+<img src="/June/assets/reacttest.gif" alt="Learning React" width="400">
 
 >### Easter Egg List in `ReactJS` 🐰
 ```javascript 
+import React from 'react';
 
+export const EggList = (props) => {;
+  let list = props.eggs.map((item, index) => {
+    return <EasterEgg key = {index} name = {item}/>;      
+  });
+  
+  return(<ul>{list}</ul>);
+};
+
+export const EasterEgg = (props) => {
+  return <li>{props.name}</li>
+};
 ```
 
 ## _(Wednesday) June 15_ 📢
