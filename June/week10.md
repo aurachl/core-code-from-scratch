@@ -110,14 +110,9 @@ module.exports = { sum, minus };
 ```javascript 
 const { sum, minus } = require("./operations");
 
-let firstNumber = 8
-let secondNumber = 4
 
-const add = sum(firstNumber, secondNumber)
-const less = minus(secondNumber,firstNumber)
-
-console.log(add)
-console.log(less)
+console.log(sum(8,4))
+console.log(minus(10,2))
 ```
 
 >### Client-Server Model 🔗 
