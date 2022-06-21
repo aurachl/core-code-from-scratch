@@ -149,11 +149,77 @@ console.log(minus(10,2))
 ## _(Thursday) June 16_ 📢
 
 >### APIs Core 💾
+>### What is an API?
+An application programming interface is a connection between computers or between computer programs. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification.
+>### What is a Protocol
+In computer science, a set of rules or procedures for transmitting data between electronic devices, such as computers. In order for computers to exchange information, there must be a preexisting agreement as to how the information will be structured and how each side will send and receive it.
+Among the most important sets of Internet protocols are TCP/IP (Transmission Control Protocol/Internet Protocol), HTTPS (Secure HyperText Transmission Protocol), SMTP (Simple Mail Transfer Protocol), and DNS (Domain Name System).
+>### Is the term API only applicable to the communication of programs over the Internet?
+There are Private APIs that are often used within an enterprise to improve collaboration. While the API itself is also open as a public API, the difference is it is only open to those that have been granted access. Developers within an organization can take advantage of the functionality from the private API to design and build applications inside the company. Private APIs can leverage the existing functionality of enterprise applications so company employees can communicate more efficiently.
+>### Why is structured communication between two programs important?
+Structured communcation allows computers/programs to communicate in the same way so the client and server can interact seemlessly. For example, without a protocol, a transmitting computer, for example, could be sending its data in 8-bit packets while the receiving computer might expect the data in 16-bit packets. Protocols are established by international or industrywide organizations.
 
+>> Do we humans use APIs when communicating without technology?
+>> 
+>> We do use APIs, such as languages and means of communication. By using the same language we make sure our listener understands our message. And by using the same means of communication (letter, messages, e-mail, spoken language), we ensure our messages are being received.
+
+>### Is an API just another program or a standard?
+An API is a program that allows the communication between to applications/computer systems. However, given the fact they are so necessary they've become a standard for such programs to communcate and let a complete ecosystem work smoothly.
+>###  Do you know any API? Can you list at least 5 examples of APIs?
+1. Weather Snippets
+2. Log-in Using XYZ
+3. Pay with PayPal
+4. Twitter Bots
+5. Travel Booking
+*************************************************************************
 >### From JSON to REST 🛗
+>### What is HTTP?
+The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.
+>### What is JSON?
+JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers
 
+>>Is JSON the same as a plain Javascript object?
+>>
+>>The JSON format is syntactically identical to the code for creating JavaScript objects. Because of this similarity, a JavaScript program can easily convert JSON data into native JavaScript objects.
+
+>### What is REST?
+REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server.
+
+>>Is REST a programming language, framework, technology, or architecture pattern?
+>>
+>>Rest is an architecture pattern that improves the way clients and servers interact with each other.
+
+>### What is a Resource in REST?
+A resource in REST is a similar Object in Object Oriented Programming or is like an Entity in a Database. Once a resource is identified then its representation is to be decided using a standard format so that the server can send the resource in the above said format and client can understand the same format.
+
+>>What is a resource identifier?
+>>
+>>Resource identification is the most flexible aspect of designing a REST based system. There is no exact science to identifying resources and there is no right or wrong with resources identified. We can identify resources from domain nouns. A resource could be a document, a video, a business process or even a device.
+    
+>### What is an HTTP method?
+HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs.
+
+>>What HTTP methods does REST use within its architecture rules?
+>>
+>>There are five methods commonly used within REST: Post, Put, Patch, Get, and Delete.
+  
+>>Why do we use HTTP methods in REST and how do they relate to resources?
+>>
+>>HTTP is a communication protocol with a given mechanism for server-client data transfer. It's most commonly used in REST API just because REST was inspired by WWW (world wide web) which largely used HTTP before REST was defined, so it's easier to implement REST API style with HTTP.
+>>
+>>A REST Resource is data on which we want to perform operations and the HTTP methods help us manipulate that data, that is there intrinsic relationship.
+    
+>### Is REST the same as HTTP?
+While many people continue to use the terms REST and HTTP interchangeably, the truth is that they are different things. REST refers to a set of attributes of a particular architectural style, while HTTP is a well-defined protocol that happens to exhibit many features of a RESTful system.
+*************************************************************************
 >### REST API Clients 📦
-
+>### Postman only works with REST APIs?
+Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification, in addition to REST, GraphQL, and WebSocket requests. 
+>### Is there an alternative to Postman?
+Swagger UI, Insomnia REST Client, Paw, Apigee, and cURL are the most popular alternatives and competitors to Postman.
+*************************************************************************
 >### Express.JS Core 🎯
+
+*************************************************************************
 
 ## [📎 Back to main page !📎](/home/readAura.md)
