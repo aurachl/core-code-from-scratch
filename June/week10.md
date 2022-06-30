@@ -219,6 +219,21 @@ Postman can make HTTP calls using SOAP, a platform-independent messaging protoco
 Swagger UI, Insomnia REST Client, Paw, Apigee, and cURL are the most popular alternatives and competitors to Postman.
 *************************************************************************
 >### Express.JS Core 🎯
+```javascript 
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
+app.listen(port, () => {
+    console.log(`Express.JS Core Understanding`)
+    console.log(`Example running on port ${port}`)
+})
+```
+<img src="/June/assets/hwexpress.gif" alt="Example Express" width="400">
 
 *************************************************************************
 
