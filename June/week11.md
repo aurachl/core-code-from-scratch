@@ -113,6 +113,4 @@ module.exports = router;
 >#### Testing 🚀
 <img src="/June/assets/agepred.gif" alt="Age Prediction API" width="400">
 
->### NSA Secrets Box API - Hacking Challenge 👨‍💻
-
 ## [📎 Back to main page !📎](/home/readAura.md)
