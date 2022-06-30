@@ -34,7 +34,6 @@ class Mission Statement🔐 {
 
 ### [🔟th. week challenges](/June/week10.md)
 ### [1️⃣1️⃣th. week challenges](/June/week11.md)
-### [1️⃣2️⃣th. week challenges](/June/week12.md)
 
 <h1 align="center">🚀 Final Project 🚀</h1>
 
