@@ -18,4 +18,3 @@
     - **Use of middlewares** 🚧
     - **Use of JSON** 🔑
   - **Use of POST, PATCH, GET, DELETE methods** 🔗
-  - **Use of uuid packages** 🆔
